@@ -33,16 +33,24 @@ export class SellService {
     console.log(data);
     this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,
       {observe:"response"}
-    ).subscribe((result:any)=>{
-      console.log(result);
-      if(result && result.body && result.body.length){
-        console.log("user logged in ");
-        localStorage.setItem('seller', JSON.stringify(result.body));
-        this.router.navigate(['seller-home']);
-      }else{
-        console.log("login fail");
-        this.isLoginError.emit(true)
-      }
-    })
+    ).subscribe(
+     {
+      next: (result:any)=>{
+        console.log(result);
+        if(result && result.body && result.body.length){
+          console.log("user logged in ");
+          localStorage.setItem('seller', JSON.stringify(result.body));
+          this.router.navigate(['seller-home']);
+        }else{
+          console.log("login fail");
+          this.isLoginError.emit(true)
+        }
+      },
+     error: (err:any)=>{
+        console.log(err);
+        
+     }
+     }
+  )
   }
 }

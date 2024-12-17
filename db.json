@@ -94,6 +94,119 @@
       "name": "asd",
       "paasword": "123456",
       "email": "asd@gmail.com"
+    },
+    {
+      "id": "169d",
+      "name": "sagadff",
+      "paasword": "fgfffg",
+      "email": "cggggf"
+    },
+    {
+      "id": "c187",
+      "name": "zxcvbnm,SD",
+      "paasword": "xcvbnm,",
+      "email": "xcvbnm,"
+    },
+    {
+      "id": "13e3",
+      "name": "asdfgh",
+      "paasword": "werghj",
+      "email": "sdfgh@gmail.com"
+    },
+    {
+      "id": "d161",
+      "name": "asdfgh",
+      "paasword": "sdfghjk",
+      "email": "dfghjk"
+    },
+    {
+      "id": "94b2",
+      "name": "safdsfs",
+      "paasword": "sdfghj",
+      "email": "dfghjk"
+    },
+    {
+      "id": "afb2",
+      "name": "sagar",
+      "paasword": "qwerty",
+      "email": "wertyui"
+    },
+    {
+      "id": "93a0",
+      "name": "cvb",
+      "paasword": "cvbnm",
+      "email": "vbnm,"
+    },
+    {
+      "id": "b16a",
+      "name": "w",
+      "paasword": "s",
+      "email": "s"
+    },
+    {
+      "id": "8b9c",
+      "name": "s",
+      "paasword": "s",
+      "email": "d"
+    },
+    {
+      "id": "177e",
+      "name": "dfgh",
+      "paasword": "dfgh",
+      "email": "sdfg"
+    },
+    {
+      "id": "c5f4",
+      "name": "sdfg",
+      "paasword": "sdfgh",
+      "email": "dfghjm,"
+    },
+    {
+      "id": "7b01",
+      "name": "ASDFGHJ",
+      "paasword": "ASDFGHJKL",
+      "email": "WDFGHJKL"
+    },
+    {
+      "id": "61b5",
+      "name": "dfghjk",
+      "paasword": "xcvbn",
+      "email": "dfghj"
+    },
+    {
+      "id": "9973",
+      "name": "sagar",
+      "paasword": "wert12345",
+      "email": "sagar@123.gmail"
+    }
+  ],
+  "products": [
+    {
+      "id": "027f",
+      "name": "nature",
+      "price": "3456789",
+      "color": "ews",
+      "category": "natrure",
+      "decscription": "sdfghjk",
+      "image": "https://img.freepik.com/free-photo/multi-colored-paint-drops-splashing-abstract-background-generated-by-ai_188544-15630.jpg"
+    },
+    {
+      "id": "a779",
+      "name": "lion",
+      "price": "3456789",
+      "color": "gray",
+      "category": "animal",
+      "decscription": "ertyuo",
+      "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "8942",
+      "name": "cat",
+      "price": "34567",
+      "color": "red",
+      "category": "wertyu",
+      "decscription": "dfghjk",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
     }
   ]
 }
