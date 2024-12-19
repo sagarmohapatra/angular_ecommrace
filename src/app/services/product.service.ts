@@ -28,6 +28,9 @@ export class ProductService {
     );
   }
   popularProducts(){
-    return this.http.get<product[]>("http://localhost:3000/products?_lmit=3") ///display three product for corasule
+    return this.http.get<product[]>("http://localhost:3000/products?_limit=3") ///display three product for corasule
+  }
+  trendyProducts(){
+    return this.http.get<product[]>("http://localhost:3000/products?_limit=5")
   }
 }
