@@ -27,10 +27,15 @@ export class ProductService {
       product
     );
   }
-  popularProducts(){
-    return this.http.get<product[]>("http://localhost:3000/products?_limit=3") ///display three product for corasule
+  popularProducts() {
+    return this.http.get<product[]>('http://localhost:3000/products?_limit=3'); ///display three product for corasule
   }
-  trendyProducts(){
-    return this.http.get<product[]>("http://localhost:3000/products?_limit=5")
+  trendyProducts() {
+    return this.http.get<product[]>('http://localhost:3000/products?_limit=5');
+  }
+  searchProducts(query: string) {
+    return this.http.get<product[]>(
+      `http://localhost:3000/products?q=${query}`
+    );
   }
 }

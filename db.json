@@ -182,13 +182,13 @@
   ],
   "products": [
     {
-      "id": "027f",
       "name": "nature",
       "price": "3456789",
       "color": "ews",
       "category": "natrure",
-      "decscription": "sdfghjk",
-      "image": "https://img.freepik.com/free-photo/multi-colored-paint-drops-splashing-abstract-background-generated-by-ai_188544-15630.jpg"
+      "decscription": "natrue is great",
+      "image": "https://img.freepik.com/free-photo/multi-colored-paint-drops-splashing-abstract-background-generated-by-ai_188544-15630.jpg",
+      "id": "027f"
     },
     {
       "id": "a779",
@@ -200,13 +200,13 @@
       "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
     },
     {
-      "id": "8942",
       "name": "cat",
       "price": "34567",
       "color": "red",
-      "category": "wertyu",
-      "decscription": "dfghjk",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg"
+      "category": "animal",
+      "decscription": "animal ",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/481px-Cat03.jpg",
+      "id": "8942"
     },
     {
       "id": "87e8",
