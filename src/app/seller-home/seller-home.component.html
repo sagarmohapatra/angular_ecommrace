@@ -21,7 +21,7 @@
                 <td>{{data.color}}</td>
                 <td>{{data.category}}</td>
                 <td>{{data.decscription}}</td>
-                <td >
+                <td style="cursor: pointer;">
                     
                     <fa-icon [icon]="icon"(click)="deleteProduct(data.id)" class="text-danger"></fa-icon>
                     <a routerLink="/seller-update-product/{{data.id}}" class="edit"><i class="fa-regular fa-pen-to-square"></i> </a>
