@@ -13,8 +13,10 @@
         </div>
         <h6>category:{{productData.category}}</h6>
         <h6>Descripton:{{productData.decscription}}</h6>
-        <button class="btn btn-secondary">Add to card</button>
-        <button class="btn btn-secondary ">Buy Now</button>   
+        <button *ngIf="!removeCart" class="btn btn-secondary" (click)="AddToCard()">Add to card</button>
+        <button *ngIf="removeCart" class="btn btn-secondary" (click)="removeToCart(productData.id)">Add to card</button>
+        <button class="btn btn-secondary ">Buy Now</button> 
+
         <div class="quantity-group">
             <button class="btn btn-primary" (click)="handleQuantity('min')">-</button>
             <input class="inputBox" type="text" value="{{productQuantity}}">

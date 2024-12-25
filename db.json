@@ -178,6 +178,36 @@
       "name": "sagar",
       "paasword": "wert12345",
       "email": "sagar@123.gmail"
+    },
+    {
+      "id": "7829",
+      "name": "sfadsdf",
+      "paasword": "",
+      "email": ""
+    },
+    {
+      "id": "91b8",
+      "name": "sagar",
+      "paasword": "123",
+      "email": "sagar@gmal.com"
+    },
+    {
+      "id": "3434",
+      "name": "1",
+      "paasword": "1q",
+      "email": "1"
+    },
+    {
+      "id": "6775",
+      "name": "s",
+      "paasword": "",
+      "email": ""
+    },
+    {
+      "id": "c854",
+      "name": "werty",
+      "paasword": "ert",
+      "email": "dfgh"
     }
   ],
   "products": [
@@ -225,6 +255,53 @@
       "category": "flower",
       "decscription": "love sign",
       "image": "https://img.freepik.com/free-photo/nature-beauty-full-display-vibrant-flower-generated-by-ai_188544-15544.jpg"
+    },
+    {
+      "id": "f8c8",
+      "name": "mango",
+      "price": "5678",
+      "color": "orange",
+      "category": "fruit",
+      "decscription": "fruit",
+      "image": "https://media.istockphoto.com/id/185284489/photo/orange.jpg?s=612x612&w=0&k=20&c=m4EXknC74i2aYWCbjxbzZ6EtRaJkdSJNtekh4m1PspE="
+    }
+  ],
+  "users": [
+    {
+      "id": "58cd",
+      "name": "sagar",
+      "email": "sagar@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "2c0b",
+      "name": "sagar",
+      "email": "sagar@gmail.com",
+      "password": "2345678"
+    },
+    {
+      "id": "0c74",
+      "name": "sipu",
+      "email": "sipu@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "d7c3",
+      "name": "xxx",
+      "email": "xxx@gmail.com",
+      "password": "xxx"
+    },
+    {
+      "id": "e990",
+      "name": "qwe",
+      "email": "qwe@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "caad",
+      "name": "qwe",
+      "email": "qwe@gmail.com",
+      "password": "1234"
     }
   ]
 }

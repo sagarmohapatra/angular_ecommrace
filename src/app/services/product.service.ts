@@ -1,10 +1,12 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { product } from '../data-type';
+import { ARIA_LIVE_DELAY_FACTORY } from '@ng-bootstrap/ng-bootstrap/util/accessibility/live';
 @Injectable({
   providedIn: 'root',
 })
 export class ProductService {
+  cardData=new EventEmitter<product[] |[]>()
   constructor(private http: HttpClient) {}
   addProduct(data: product) {
     // console.log("service call");
@@ -37,5 +39,17 @@ export class ProductService {
     return this.http.get<product[]>(
       `http://localhost:3000/products?q=${query}`
     );
+  }
+  localAddToCard(data: product) {
+    let carData = [];
+    let localCart = localStorage.getItem('localCart');
+    if (!localCart) {
+      localStorage.setItem('localCart', JSON.stringify([data]));
+    }else{
+      carData=JSON.parse(localCart)
+      carData.push(data)
+      localStorage.setItem('localCart', JSON.stringify(carData));
+    }
+    this.cardData.emit(carData)
   }
 }
