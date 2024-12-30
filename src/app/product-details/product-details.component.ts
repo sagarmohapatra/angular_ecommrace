@@ -26,7 +26,7 @@ export class ProductDetailsComponent {
         let cartData = localStorage.getItem('localCart');
         if (productId && cartData) {
           // console.log(productId);
-          // console.log(cartData);
+          // console.log(cartData); 
           
           
           let items = JSON.parse(cartData);
