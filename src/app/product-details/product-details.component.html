@@ -14,7 +14,7 @@
         <h6>category:{{productData.category}}</h6>
         <h6>Descripton:{{productData.decscription}}</h6>
         <button *ngIf="!removeCart" class="btn btn-secondary" (click)="AddToCard()">Add to card</button>
-        <button *ngIf="removeCart" class="btn btn-secondary" (click)="removeToCart(productData.id)">Add to card</button>
+        <button *ngIf="removeCart" class="btn btn-secondary" (click)="removeToCart(productData.id)">removeToCart</button>
         <button class="btn btn-secondary ">Buy Now</button> 
 
         <div class="quantity-group">

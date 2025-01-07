@@ -48,7 +48,7 @@ export class HeaderComponent {
       this.cartItems = items.length;
     });
   }
-
+ 
   logout() {
     localStorage.removeItem('seller');
     this.route.navigate(['/']);
@@ -56,6 +56,7 @@ export class HeaderComponent {
   userLogout() {
     localStorage.removeItem('user');
     this.route.navigate(['/user-auth']);
+    this.product.cardData.emit([])
   }
   searchProduct(query: KeyboardEvent) {
     if (query) {

@@ -20,7 +20,6 @@ const routes: Routes = [
   {path:"details/:productId",component:ProductDetailsComponent},
   {path:"user-auth",component:UserAuthComponent}
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

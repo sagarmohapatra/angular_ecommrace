@@ -9,6 +9,7 @@ export interface logIn{
     password:string
 }
 export interface product{
+    filter(arg0: any): unknown;
     name:string,
     price:number,
     category:string,
@@ -16,5 +17,18 @@ export interface product{
     decscription:string,
     image:string,
     id:number,
-    quantity:undefined |number
+    quantity:undefined |number,
+    productId:undefined |number,
+}
+export interface cart{
+    name:string,
+    price:number,
+    category:string,
+    color:string,
+    decscription:string,
+    image:string,
+    id:number | undefined,
+    quantity:undefined |number;
+    userId:number;
+    productId:number;
 }
